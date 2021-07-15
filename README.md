@@ -1,6 +1,7 @@
 # cs50js
 Practicing event listeners and functions// Web Development with Python and JS. Harvard CS50
-# youtube class
-![CS50 JS](https://www.youtube.com/watch?v=x5trGVMKTdY)
+# youtube 
+
+https://www.youtube.com/watch?v=x5trGVMKTdY
 
 
