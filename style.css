@@ -1,0 +1,38 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 50px;
+    
+}
+
+button {
+    display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: rgba(255, 255, 255, 0.993);
+  background-color: #8de2d7;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+    
+}
+
+.button:hover {background-color: #3e678e;}
+
+.button:active {
+  background-color: #3ccdb4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
