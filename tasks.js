@@ -10,3 +10,9 @@ form.addEventListener('submit', (event) => {
     tasks.append(li)
     document.querySelector('#task').value = ' ';
 })
+
+document.querySelector('#submit').disabled = true;
+
+document.querySelector('#task').addEventListener('keyup', () => {
+    document.querySelector('#submit').disabled = false;
+})
