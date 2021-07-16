@@ -16,8 +16,8 @@ const buttons = document.querySelectorAll('button');
 //     hello.style.color = 'green';
 // })
 
-buttons.forEach(function(button) {
-    button.addEventListener('click', function() {
+buttons.forEach(button => {
+    button.addEventListener('click', () => {
         hello.style.color = button.dataset.color;
     })
 })
