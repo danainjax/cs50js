@@ -8,8 +8,9 @@ let counter = 0;
 function count() {
     counter ++;
     h1.innerHTML = counter;
-    alert(`You are counting to ${counter}`)
 }
+
+setInterval(count, 1000)
 
 bttn.addEventListener('click', count)
 
