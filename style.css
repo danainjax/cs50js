@@ -4,7 +4,7 @@ h1 {
     
 }
 
-button {
+button, select {
     display: inline-block;
   padding: 15px 25px;
   font-size: 24px;
