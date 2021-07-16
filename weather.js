@@ -11,9 +11,13 @@ submit.addEventListener('click', (event) => {
     .then(response => response.json())
     .then(data => {
         const report = document.createElement('div')
+        const temperature = data.temperature;
         report.innerHTML = 
-        `<h1> The weather in ${city} is:</h1>
-         <h2> ${ data.description} </h2>`
+        `<h3>The weather in</h3>
+         <h1>${city}</h1> is:
+        <h2> Temperature: ${temperature} </h2>
+        <h3> The wind is ${data.wind} </h3>
+         <h2> ${data.description} </h2>`
         weather = document.getElementById('weather');
         weather.innerHTML = " "
         weather.append(report);
